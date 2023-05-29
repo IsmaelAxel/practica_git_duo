@@ -1,1 +1,7 @@
-const operaciones = require('./operaciones')
+const resta = require('./operaciones/resta')
+const suma = require('./operaciones/suma')
+const multiplicacion = require('./operaciones/multiplicacion')
+const potencia = require('./operaciones/potencia')
+const raizCuadrada = require('./operaciones/raizCuadrada')
+const division = require('./operaciones/division')
+console.log(division(2,2))
